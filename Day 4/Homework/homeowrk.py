@@ -16,6 +16,8 @@ print("Please Enter Your Age")
 
 your_age = input()
 
+print("Your Age After 10 Years:")
+
 print (int(your_age) + 10)
 
 
@@ -34,6 +36,7 @@ number5 = input()
 sum = int(number1)+int(number2)+int(number3)+int(number4)+int(number5)
 arithmetic_average = sum/5
 
+print("The Arithmetic Average of Those Numbers:")
 print(arithmetic_average)
 
 
@@ -50,62 +53,61 @@ print(arithmetic_average)
 
 
 
-#exercise n5 - make five errors and write the correct code by using comments, then describe what are bugs/debugging.
+#exercise n5 - make five errors and then write the correct code, then describe what are bugs/debugging.
 
 
 #1st error - a quotation mark is missing
 
-name = "Giorgi
+# name = "Giorgi
 
-# name = "Giorgi"
+name = "Giorgi"
 
 
 #2nd error - a variable is printed before it's declared
 
-print (name)
-name = "Giorgi"
-
-# name = "Giorgi"
 # print (name)
+# name = "Giorgi"
+
+name = "Giorgi"
+print (name)
 
 
 #3rd error - a parenthesis is missing
-age1 = 23
-age2 = 25
-age3 = 30
-
-print (age1 + age2+ age3
-
 # age1 = 23
 # age2 = 25
 # age3 = 30
 
-# print (age1 + age2+ age3)
+# print (age1 + age2+ age3
+
+age1 = 23
+age2 = 25
+age3 = 30
+
+print (age1 + age2+ age3)
 
 
 
 #4th error - the variable's first letter is in uppercase
 
-Balance = 2457
+# Balance = 2457
 
-print(balance)
-
-# balance = 2457
 # print(balance)
+
+balance = 2457
+print(balance)
 
 
 
 #5th error - the division operator's symbol is wrong
 
-print ( 5 : 2)
+# print ( 5 : 2)
 
-# print( 5/2 )
+print( 5/2 )
 
 
 #Bug/Debugging
 # Bug არის იგივე რაც error, შეცდომა, რაც კოდის წერის დროს დავუშვით. კომპიუტერი პირველივე შეცდომაზე აჩერებს კოდის გაშვებას.
 # Debugging კი არის ის რასაც სიტყვა გვეუბნება, ამ bug-ების გასწორება, კოდში დაშვებული შეცდომების ჩასწორება.
 # python- ის შემთხვევაში ტერმინალი თვითონ გვეუბნება თყ რომელ ხაზზე და რა შეცდომა დავუშვით, რომ უფრო გაგვიმარტივდეს მათი აღმოფხვრა.
-
 
 
