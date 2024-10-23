@@ -1,0 +1,17 @@
+
+body{
+    font-family: "lucida console", monospace;
+}
+table{
+    width: 600px;
+    border: 2px solid;
+}
+tr:nth-child(1){
+    color: white;
+    background-color:#45a168
+}
+
+tr:nth-child(3){
+    color:#45a168;
+    background-color: #d2d9d5;
+}

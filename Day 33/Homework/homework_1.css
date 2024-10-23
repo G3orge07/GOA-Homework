@@ -1,0 +1,78 @@
+
+body{
+    background-color: antiquewhite;
+    margin-left: 7%;
+}
+html{
+    scroll-behavior: smooth;
+}
+ul{
+    list-style: square inside;
+}
+ul li a{
+    text-decoration: underline;
+    color: black
+}
+img{
+    width: 20% ;
+}
+
+h1{
+    font-size: 350%;
+    font-family: "Lucida Handwriting", cursive;
+    margin-bottom: 5px;
+}
+h2{
+    margin-top: 0;
+    font-family: "lucida console", monospace;
+    font-weight: 900;
+}
+h3{
+    text-transform: capitalize;
+}
+details{
+    margin-top: 4%;
+    font-size: 20px;
+    margin-left: 0%;
+}
+.gen-info{
+    text-align: justify;
+    width:50%
+}
+
+div#div1{
+    font-family: "lucida console", monospace;
+}
+div#div4{
+    font-family: "lucida console", monospace;
+    width: 45%
+}
+div#div3{
+    font-family: "lucida console", monospace;
+    width: 45%;
+    float: right;
+    text-align: justify;
+    margin-top: 1%;
+}
+
+h3#section2{
+    text-align: right;
+}
+#section3{
+    text-transform: capitalize;
+    font-weight: 900;
+}
+
+nav{
+    float: right;
+    margin-right: 10%;
+    font-size: 130%;
+}
+img#wikipedia{
+    margin-left: 10%;
+    width: 20%
+}
+header{
+    width: 100%;
+    background-color: rgb(201, 234, 254);
+}
