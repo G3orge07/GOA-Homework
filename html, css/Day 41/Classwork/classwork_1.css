@@ -1,0 +1,23 @@
+body{
+    display:flex;
+    font-size: 20px;
+}
+#list1{
+
+}
+#list2{
+    list-style-type: upper-roman;
+}
+#list3{
+    list-style-type: circle;
+}
+#list4{
+    list-style-type: georgian;
+}
+#list5{
+    list-style-type: square;
+}
+#list6{
+    margin-left: 40px;
+    list-style-image: url(Screenshot\ 2024-11-09\ 225213.png);
+}

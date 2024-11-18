@@ -1,10 +1,14 @@
 body {
     font-family: Arial, sans-serif;
-    background-color:#e1fae3
+    background-color:#e1fae3;
+
 }
 html{
     scroll-behavior: smooth;
 }
+
+
+/* navigation menus start */
 header{
     width:100%
 }
@@ -62,6 +66,7 @@ header{
     margin-right: 20px;
     transition: 0.5s;
     border: 20px solid #259c74;
+
 }
 #logo:hover{
     border :10px solid #1abdaf;
@@ -106,150 +111,84 @@ a#signup:hover{
 }
 
 
-
-.title-arrow{
-    margin-left: 30px;
-    display: flex;
-    margin-top: 30px;
+header h1{
+    text-align: center;
+    background-color: #e1e3e1;
+    font-size: large;
+}
+header h1 a{
     font-weight: 600;
-    width:10%
-}
-
-
-
-.title-arrow img{
-    height: 40pxpx;
-    width: 50px;
-}
-.title-arrow:hover{
-    color:#1abdaf;
-    font-weight: 900;
-    cursor: pointer
-}
-
-.products-list{
-    display: flex;
-    height: 100%;
-}
-
-.products-list img{
-    height: 80%;
-    border-radius: 20px;
-    transition: 0.3s;
-}
-
-
-.products-list div a{
-    margin-left: 20px;
-    width:400px;
-    background-color: #cafcca;
     text-decoration: none;
-    color: #333;
+    color: grey;
 }
-.products-list div{
-    margin-right: 20px;
-    height: 250px;
-    border:#333 solid 8px;
-    border-radius: 20px;
-    transition: 0.3s;
+header h1 a#current-page{
+    color:black;
 }
-.products-list div{
-    margin-bottom: 20px;
+header h1 a:hover{
+    text-decoration: solid underline;
 }
+/* navigation menus finish */
 
-.products-list div:hover{
-    height:300px;
-}
-.products-list div p{
-    font-size: 120%;
-    font-weight: 700;
-    margin-left: 40px;
-}
-#all-sections div nav ul li{
-    list-style-type: none;
-}
-
-
-
-.product-arrow{
-    margin-top: 20px;
-    margin-left: none;
-    width:80px;
-    height: 40px;
-    align-items: center;
-}
-.product-arrow:hover{
-    width:110px;
-}
-
-
-
-
-
-#latest-mac{
-    display:flex;
-    background-color: #C5C2BD;
-    color: #333;
-}
-#latest-mac p{
-    font-weight: 500;
-}
-#latest-mac b{
-    font-weight: 700;
-    color: #3dba97
-}
-#latest-mac{
-    margin-left: none;
-}
-#latest-mac a{
-    color:#333;
-}
-#latest-iphone{
-    display:flex;
-    background-color: black;
-    color:#e1fae3
-}
-#iphone16pro{
-    width:600px;
-    margin-left: 40px;
-}
-#macmini{
-     width:600px;
-    margin-left: 40px;
-}
-.latest-product div{
-    margin-left: 50px;
-}
-.latest-product h3{
-    font-size: 35px;
-    margin-top: none;
-}
-.latest-product h5{
-    font-size: 25px;
-    font-weight: 100;
-    text-decoration: underline;
-}
-#line1{
-    height:80%;
-    margin-top: 22px;
-    margin-left: 20px;
-}
-
-
-
-footer{
-    background-color: #333;
-    color: #e1fae3;
-}
-
-#latest-airpods {
-    background-color: #f5f5f7;
+/* product text and versions შაბლონი */
+.section{
+    margin-bottom: 30px;
+    padding:30px;
+    width:100%;
     display: flex;
+    height:330px;
 }
 
 
+#section-ipad .section-text, #section-ipad-mini .section-text{
+    border-top: #e1fae3;
+    border-right: #e1fae3;
+}
+#section-ipad-air .section-text{
+    border-top: #e1fae3;
+    border-left: #e1fae3;
+}
+.section-text{
+    border:solid;
+    border-radius: 20px;
+    width: 50%;
+    height:100%;
+    padding:15px;
+}
+.section-text h3{
+    font-size: 30px;
+    background-color: #f5f5f7;
+}
+.section-text p{
+    text-justify: justify;
+} 
 
-/* Footer / Contact Info */
+.section-versionss{
+    width:100%;
+    height:50%;
+    display:flex
+}
+.section-versionss-product{
+    padding:10px;
+    margin-top: 30px;
+    width: 300px;
+    display:flex;
+    border:solid;
+    border-radius: 20px;
+}
+.section-versionss-product img{
+    padding:5px
+}
+.section-versionss-product p{
+    color:#e1fae3;
+    transition: 0.5s
+}
+.section-versionss-product:hover p{
+    color:#000000;
+    cursor: default
+}
+
+
+/* footer */
 footer {
     background-color: #333;
     color: #f5f5f7;
@@ -288,7 +227,7 @@ footer {
 }
 
 .socials a:hover {
-    color: #4CAF50; /* Optional hover color */
+    color: #4CAF50; 
 }
 
 .footer-bottom {

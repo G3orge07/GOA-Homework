@@ -1,0 +1,31 @@
+
+
+table{
+    border-collapse: collapse;
+    font-size: 30px;
+
+}
+
+th{
+    border: 2px solid ;
+    background-color: #125763;
+    color: white;
+    border-color: black;
+
+}
+
+#best-score{
+    border-style: dotted;
+    border-color: rgb(15, 179, 20);
+}
+
+td{
+    border: 2px solid #1a1717;
+    background-color: #92d3de
+}
+
+th, td{
+    width: 150px;
+    text-align: center;
+    padding:13px;
+}

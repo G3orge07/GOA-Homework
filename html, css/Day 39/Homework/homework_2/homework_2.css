@@ -1,0 +1,39 @@
+table{
+    margin-left: 40px;
+    margin-bottom: 80px;
+    border-collapse: collapse;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+h1{
+    text-align: center;
+}
+h3{
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+th{
+    border: 2px solid ;
+    background-color: #1d4d2a;
+    color: white;
+    border-color: black;
+
+}
+
+
+td{
+    border: 2px solid #1a1717;
+    background-color: #5af282
+}
+
+th, td{
+
+    text-align: center;
+    padding:13px;
+}
+div{
+    text-align: center;
+    padding:10px;
+}
