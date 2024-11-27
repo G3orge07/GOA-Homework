@@ -1,13 +1,26 @@
 
 #დაწერე ფუნქცია, რომელიც მიიღებს სიას და აბრუნებს მასში მყოფი ელემენტების რაოდენობას.
 
-List = []
 
-def list_length():
-    continue_adding = True
-    print("You are going to create a list as long as you like and then we are going to calculate the length of it!")
+#function 1 - სიას იღებს არგუმენტის სახით
+list1 =[1,2,3,4,5,6,7,8]
+
+def list_len(list):
+    return len(list)
+
+print(list_len(list1))
+
+
+
+
+#function 2 - მომხმარებელი ქმნის სიას
+
+list2=[]
+def list_length(List):
+    print("Creating a list...")
     List.append(input("Enter the 1st item: "))
 
+    continue_adding = True
     while continue_adding == True:
         List.append(input("Enter the next item: "))
         choice = input(("Would you like to keep going? Type + if yes, type - if not: "))
@@ -16,9 +29,8 @@ def list_length():
         else:
             continue_adding = False
 
-    return List
+    return len(List)
 
 
-print(list_length())
+print(list_length(list2))
 
-print("The length of your list is "  + str(len(List)))

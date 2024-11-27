@@ -1,0 +1,25 @@
+
+#container{
+    width:800px;
+    height: 530px;
+    padding:20px;
+    margin-left: 50px;
+}
+
+#whiteredwhite{
+    display:flex;
+}
+.white{
+    border:solid 20px red;
+    width:350px;
+    height:215px;
+
+
+    background-color: white;
+}
+
+img{
+    margin-left: 33%;
+    margin-top: 15%;
+
+}

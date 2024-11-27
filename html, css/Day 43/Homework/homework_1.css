@@ -1,0 +1,38 @@
+
+#container{
+    width:400px;
+    border: solid 100px ;
+    border-radius: 100% 100% 100% 100%;
+}
+
+.blue{
+    width: 200px;
+    height: 200px;
+    background-color: #57ABD7;
+}
+.white{
+    width:200px;
+    height: 200px;
+    background-color: white;
+    border: solid 1px black;
+}
+
+
+#blue1{
+    border-radius: 100% 0% 0% 0%;
+}
+#white1{
+    border-radius: 0% 100% 0% 0%;
+}
+
+#blue2{
+    border-radius: 0% 0% 100% 0%;
+}
+#white2{
+    border-radius: 0% 0% 0% 100%;
+}
+
+
+#bluewhite, #whiteblue{
+    display:flex
+}

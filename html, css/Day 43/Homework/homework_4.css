@@ -1,0 +1,39 @@
+
+#container{
+    width:500px;
+    height:500px;
+    display:flex;
+    transition: 0.5s;
+}
+
+#container:hover{
+    width:400px;
+    height:300px;
+    margin-left: 300px;
+
+}
+#red{
+    width:50%;
+    height:50%;
+    background-color: red;
+}
+
+#container:hover #red{
+    width:50%;
+    height:50%;
+    background-color: white;
+    border:solid 2px black
+}
+
+#white{
+    width:50%;
+    height:50%;
+    background-color: white;
+    border:solid 2px black
+}
+#container:hover #white{
+    width:50%;
+    height:50%;
+    background-color: red;
+}
+

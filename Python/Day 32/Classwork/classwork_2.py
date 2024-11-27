@@ -8,5 +8,3 @@ for i in range(len(name_list)):
         filtered_list.append(name_list[i])
 
 print(filtered_list)
-    
-    # print(name_list[i])

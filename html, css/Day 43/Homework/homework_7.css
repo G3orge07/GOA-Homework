@@ -1,0 +1,24 @@
+
+button{
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 220px;
+    margin: 10px;
+    transition: 0.3s;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #d5e2f7;
+    color: #333;
+    border: 2px dashed #808080;
+}
+  
+button:hover {
+    background-color: #0b2042;
+    color: white;
+    transform: scale(1.1);
+    border: 4px solid #4CAF50;
+}
+
+  

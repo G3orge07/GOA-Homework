@@ -2,7 +2,6 @@
 #დაწერე ფუნქცია, რომელიც input()-ით იღებს ორ რიცხვს და ბეჭდავს, რომელია დიდი.
 
 def comparison():
-    print("Let's do a comparison of two numbers!")
     num1 = int(input("Enter the 1st number: "))
     num2 = int(input("Enter the 2nd number: "))
     if num1 > num2:
