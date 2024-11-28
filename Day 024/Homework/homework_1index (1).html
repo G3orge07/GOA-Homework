@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ავტომობილების დილერები</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #000000;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .hero {
+            background: url('hero-image.jpg') no-repeat center center/cover;
+            height: 400px;
+            color: #fff;
+            text-align: center;
+            padding: 100px 20px;
+        }
+        .hero h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        .container {
+            padding: 20px;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .section h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+        }
+        .inventory {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .car-item {
+            background: #810000;
+            border: 1px solid #770000;
+            padding: 10px;
+            width: 30%;
+            box-sizing: border-box;
+        }
+        .car-item img {
+            width: 100%;
+            height: auto;
+        }
+        .car-item h3 {
+            margin: 10px 0;
+        }
+        .car-item p {
+            margin: 0;
+        }
+        .cta-button {
+            display: inline-block;
+            background-color: #770000;
+            color: #ffffff;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #770000;
+            color: #000000;
+            text-align: center;
+            padding: 10px;
+        }
+        @media (max-width: 768px) {
+            .car-item {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ავტომობილების დილერშიპი</h1>
+        <nav>
+            <a href="#მთავარი">მთავარი</a>
+            <a href="#ჩამონათვალი">ჩამონათვალი</a>
+            <a href="#ჩვენი ფინანსები">ჩვენი ფინანსები</a>
+            <a href="#სერვისები">სერვისები</a>
+            <a href="#კონტაქტი">კონტაქტი</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>აღმოაჩინე შენი ოცნების მანქანა</h1>
+        <a href="#ჩამონათვალი" class="cta-button">დაათვალიერე ჩამონათვალი</a>
+    </section>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ფასების ჩამონათვალი</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+            }
+            .container {
+                width: 80%;
+                margin: auto;
+                overflow: hidden;
+            }
+            .search-box {
+                margin: 20px 0;
+            }
+            .search-box input[type="text"] {
+                padding: 10px;
+                width: 100%;
+                box-sizing: border-box;
+            }
+            table {
+                width: 100%;
+                border-collapse: collapse;
+            }
+            th, td {
+                padding: 10px;
+                text-align: left;
+                border: 1px solid #ddd;
+            }
+            th {
+                background-color: #f4f4f4;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>ფასების ჩამონათვალი</h1>
+            <div class="search-box">
+                <input type="text" id="ძებნა" placeholder="ძებნა ...">
+            </div>
+            <table id="priceTable">
+                <thead>
+                    <tr>
+                        <th>ნომერი</th>
+                        <th>პროდუქტი</th>
+                        <th>ფასი</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>New Bentley Continental GT V8</td>
+                        <td class="ფასი">$238,325</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>2023 BMW M3 CS Unveiled</td>
+                        <td class="ფასი">$35,000</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>2024 Nissan Skyline R35 GTR</td>
+                        <td class="price">$131,000</td>
+                    </tr>
+                   
+                </tbody>
+            </table>
+        </div>
+    
+     
+    </body>
+    </html>
+    
+    <div class="container">
+        <section id="ჩამონათვალი" class="section">
+            <h2>ჩამონათვალი</h2>
+            <div class="inventory">
+                <div class="car-item">
+                    <img src="https://media.autoexpress.co.uk/image/private/s--kMGIWyBb--/f_auto,t_primary-image-desktop@1/v1562247430/autoexpress/2019/03/bentley-continental-gt-v8-2.jpg" alt="Car 1">
+                    <h3>New Bentley Continental GT V8</h3>
+                    <p>Price: $238,325</p>
+                    <a href="#" class="cta-button">The Bentley Continental GT V8 is a luxurious grand tourer that combines high performance with refined elegance. Here are some key highlights:
+
+                        Engine and Performance: The Continental GT V8 is powered by a 4.0-liter twin-turbocharged V8 engine, delivering around 542 horsepower and 568 lb-ft of torque. This allows the car to accelerate from 0 to 60 mph in just 3.9 seconds1.
+                        Design and Interior: The car features a sleek, muscular design with a distinctive front grille and LED matrix headlamps. Inside, it offers a world-class four-seat interior with options for 3D leather, new quilting, and a dark chrome finish1.
+                        Technology: The Continental GT V8 is equipped with advanced technology, including a state-of-the-art infotainment system, a digital instrument cluster, and a range of driver assistance features1.
+                        Driving Experience: Known for its smooth and comfortable ride, the V8 engine provides a more dynamic driving experience compared to the W12 variant, thanks to its lighter weight</a>
+                </div>
+                <div class="car-item">
+                    <img src="https://manofmany.com/_next/image?url=https%3A%2F%2Fapi.manofmany.com%2Fwp-content%2Fuploads%2F2023%2F01%2F2023-BMW-M3-CS-feature.jpg&w=1200&q=75" alt="Car 2">
+                    <h3>2023 BMW M3 CS Unveiled</h3>
+                    <p>Price: $35,000</p>
+                    <a href="#" class="cta-button">The 2023 BMW M4 CSL sold out in record time after it was unveiled in May of last year, and today, the M3 is receiving a similar treatment with a ‘CS’ badge that indicates more power, connection with the road, and exclusivity to match. Most importantly, it’s due in Australia following launches of XM, M3 Touring and second generation M2 and is priced from a rather tasty $249,900 AUD plus on-road costs.
+
+                        It’s everything you expect from a BMW ‘CS’ product, with a lightweight construction thanks to the extensive use of carbon fibre reinforced plastic (CFRP), increased engine output, unique chassis setup, special design features, and a honed driving experience that’s suitable for road and track.
+                        
+                        </a>
+                </div>
+                <div class="car-item">
+                    <img src="https://www.carscoops.com/wp-content/uploads/2022/10/2023-Nissan-GT-R-00001.jpg" alt="Car 3">
+                    <h3>2024 Nissan Skyline R35 GTR</h3>
+                    <p>Price: $131,000</p>
+                    <a href="#" class="cta-button">Performance: The 2024 GT-R comes in three grades: GT-R Premium, T-spec, and GT-R NISMO. The Premium and T-spec models feature a 565-horsepower twin-turbo V6 engine, while the NISMO version boosts this to 600 horsepower1.
+                        Design: The 2024 model has received some design tweaks, including a new front fascia with a boxier look, integrated side grilles, and modern circular bumper lights. The rear has also been updated with a more aggressive look and a sharper wing design2.
+                        Special Editions: Two special editions are available: the GT-R Premium edition T-spec and the GT-R NISMO Special edition. These editions include unique features like gold Rays 20-inch forged wheels and carbon ceramic brakes</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="ჩვენი ფინანსები" class="section">
+            <h2>დაფინანსების პარამეტრები</h2>
+            <p>ეს არის ბიზნესის მფლობელების მიერ ჩადებული თანხები</p>
+            <a href="#" class="cta-button">გაიგე მეტი</a>
+        </section>
+
+        <section id="სერვისები" class="section">
+            <h2>ჩვენი სერვისები</h2>
+            <p>წინასწარი შეკვეთები,შემკვეთზე მორგებული:ფასი,ვიზუალი,სერვისი</p>
+            <a href="#" class="cta-button">გაიგე მეტი</a>
+        </section>
+
+        <section id="კონტაქტი" class="section">
+            <h2>დაგვიკავშირდით</h2>
+            <p>შეკითხვების შემთხვევაში დაგვიკავშირდით</p>
+            <a href="#" class="cta-button">დაგვიკავშირდით</a>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; ავტომობილების დილერშიპი. გამოიყენეთ მხოლოდ შეკვეთისთვის!.</p>
+    </footer>
+</body>
+</html>
+
+

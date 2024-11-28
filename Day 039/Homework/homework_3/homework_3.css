@@ -1,0 +1,41 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #1E2024;
+}
+
+header{
+    height:80px;
+    background-color: #16181C;
+}
+
+#adjaranet-logo{
+    padding:20px;
+    width:15%;
+    border-radius: 30px;
+}
+
+#header-cont{
+    display:flex;
+}
+.header1{
+    display:flex;
+    justify-content: space-around;
+    color:white
+}
+
+#categories{
+    width: 50%;
+}
+#search{
+    width:35%
+}
+input[type="text"] {
+    margin:18px;
+    padding:10px;
+    margin-left: 20px;
+    border-radius: 20px;
+    outline: none;
+    height:20px;
+    background-color: #1E2024;
+    color: #8F8F90;
+}
