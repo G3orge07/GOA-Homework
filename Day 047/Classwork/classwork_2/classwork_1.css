@@ -1,0 +1,24 @@
+div{
+    background-color: #F05656;
+    border-radius: 15%;
+    width:400px;
+    height:400px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 2px 4px 40px;
+}
+
+
+h2{
+    font-size: 50px;
+    position: relative;
+    bottom: 20px;
+}
+img{
+    position: relative;
+    top:14px;
+    height:70%;
+    width:70%;
+}
+

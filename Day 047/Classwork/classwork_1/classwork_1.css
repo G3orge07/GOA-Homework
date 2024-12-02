@@ -1,0 +1,25 @@
+#container{
+    width:600px;
+    height:600px;
+    border:5px solid;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.div{
+    border: 2px solid;
+    width:17%;
+    height:17%;
+    margin: 10px;
+}
+
+#div1{
+    background-color:blueviolet;
+}
+
+#div{
+    background-color: aquamarine;
+}
+
