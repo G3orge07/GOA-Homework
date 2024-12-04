@@ -1,0 +1,17 @@
+div{
+    width:500px;
+    height:500px;
+    border: 5px solid #042b23;
+    border-radius: 5%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #22193d;
+}
+
+p{
+    width:70%;
+    padding:10px;
+    border: 2px solid ;
+    color: white;
+}
