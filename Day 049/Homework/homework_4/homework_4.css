@@ -1,0 +1,152 @@
+
+/*code for the container*/
+
+.container{
+    width: 500px;
+    height: 500px;
+    border: 4px solid;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    margin-bottom: 200px;
+}
+
+.item{
+    width:25%;
+    height:25%;
+    border: 2px solid;
+    border-radius: 10%;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+}
+
+#item2, #item6, #item10{
+    background-color: aquamarine;
+}
+#item3, #item7, #item8{
+    background-color: blueviolet;
+}
+#item4, #item5, #item9{
+    background-color: brown;
+}
+
+
+/*code for the container*/
+
+
+
+
+
+/* position იღებს 5 მნიშვნელობას:  */
+
+/* absolute
+   relative
+   fixed
+   sticky
+   static */
+
+
+
+#container1{
+    position: relative;
+}
+
+#container1 #item1{
+    background-color: blue;
+    width:30%;
+    height:30%;
+
+
+
+    /* როდესაც ელემენტს ვანიჭებთ position: absolute-ს, 
+   ის დოკუმენტის ნაწილი აღარ იქნება, მას არ ექნება დოკუმენტში ადგილი
+   დაკავებული და სხვა ელემენტები ისე მოიქცევიან თითქოსდა ის არასდროს არსებობდა.
+   და default-ად ის დოკუმენტის ზემოდანაა მოთავსებული */
+    position:absolute;
+
+
+    /* ელემენტების გადაადგილება სადაც გვსურს, შეგვიძლია გამოვიყენოთ: 
+       top, right, bottom, left 
+       თუმცა ერთდროულად ერთ ელემენტზე შეგვიძლია მათი გამოყენება ასე: 
+       top ან bottom   და  right ან left, რადგან არალოგიკურია, რომ 
+       ერთ ღერძზე ორი მნიშვნელობა დავწეროთ.  */
+    left: 100px;
+    top: 250px;
+}
+
+/* position: static-ის მქონე ელემენტებს არ აქვთ წვდომა
+    top, right, left, და bottom-თან.
+    
+    ყველა ელემენტი default-ად არის static.*/
+
+
+
+
+
+#container2{
+    position: relative;
+}
+
+#container2 #item1{
+    background-color: blue;
+    width:30%;
+    height:30%;
+
+    /* position: relative ასევე გვანიჭებს შესაძლებლობას გამოვიყენოთ
+        top, right, bottom და left, მაგრამ absolute-ისგან განსხვავებით
+        ის დოკუმენტში მაინც იკავებს ადგილს. სხვა ელემენტები მასთან ერთად აგრძელებენ
+        იმავე ადგილას წყობის შენარჩუნებას. */
+    position:relative;
+
+
+
+    /* ელემენტებს შეგვიძლია გავუწეროთ მინუს მნიშვნელობები,
+        და თუ ისინი ჰორიზონტალურ ეკრანის საზღვარს გადაცდნენ და გვინდა, რომ 
+        scroll-bar აღარ ჰქონდეს საიტს, შეგვიძლია body-ს
+        გავუწეროთ  overflow-x: hidden; */
+    bottom: -420px;
+    left:100px;
+}
+
+
+#container3 #item1{
+    background-color: blue;
+    width:30%;
+    height:30%;
+
+    /* position:fixed absolute-ის მსგავსად იღებს ელემენტს დოკუმენტიდან
+        და ელემენტების ზემოდან ვპოზიციონერებთ მას.
+        თუმცა ერთი დიდი განსხვავებაა: 
+        scroll-ვის დროს ის ეკრანზე ერთ ადგილას რჩება. ის ძირითადად 
+        header-ებისთვის გამოიყენება */
+    /* position:fixed; */
+
+    bottom: 300px;
+
+    /* z-index გვეხმარება ელემენტი გადმოვიტანოთ წინ
+    ან გადავიყვანოთ სხვა ელემენტების უკან*/
+    z-index: -1;
+}
+
+
+#container4{
+    margin-bottom: 1000px;
+}
+
+#container4 #item1{
+    background-color: blue;
+    width:30%;
+    height:30%;
+
+
+    /* position: sticky  fixed-ის მსგავსად სქროლვის დროს ელემენტს
+        ერთ ადგილას 'აწეპებს', თუმცა ის მხოლოდ იქნება ჩვენს ეკრანზე,
+        მანამ სანამ მისი კონტეინერის ქვევით/ზევით არ გავსქროლავთ */
+
+    position:sticky;
+    top:50px;
+}

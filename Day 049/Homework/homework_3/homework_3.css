@@ -1,0 +1,27 @@
+
+#container{
+    width:500px;
+    height:500px;
+    border:5px solid black;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: aliceblue;
+}
+
+.child{
+    width:23%;
+    height:23%;
+    border: 3px solid;
+}
+
+#child1{
+    background-color: aqua;
+}
+#child2{
+    background-color: blueviolet;
+}
+#child3{
+    background-color: brown;
+}   

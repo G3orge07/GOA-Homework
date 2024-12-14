@@ -1,0 +1,34 @@
+div{
+    width:80%;
+    margin:30px;
+    display: flex;
+    justify-content: space-between
+}
+
+p{
+    width:30%;
+}
+
+#p1{
+    text-decoration: 2px solid underline;
+    font-size: 20px;
+    color: rgb(0, 87, 122)
+}
+
+#p2{
+    text-decoration: 4px dashed overline;
+    font-size: 40px;
+    color: rgb(59, 220, 5)
+}
+
+#p3{
+    text-decoration: 1px wavy line-through;
+    font-size: 25px;
+    color: #910f0f
+}
+
+#p4{
+    text-decoration: 3px dotted underline blue;
+    font-size: 50px;
+    color:#300762
+}
