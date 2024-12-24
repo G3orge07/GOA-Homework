@@ -1,0 +1,83 @@
+@font-face {
+    font-family: "Inter";
+    src: url("social-links-profile-main/assets/fonts/static/");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: Inter, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #141414;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+
+#container{
+    margin-top: 100px;
+    height:550px;
+    width:350px;
+    background-color: #1F1F1F;
+    border-radius: 15px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#pfp{
+    margin-top: 10%;
+    width:22%;
+    border-radius: 50%;
+}
+
+#name-country{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#name-country h1{
+    font-size: 150%;
+    font-weight: 500;
+}
+#name-country p{
+    color:#C8F828;
+    font-size: 90%;
+    font-weight: 600;
+    position: relative;
+    top:-6px;
+}
+
+#description{
+    color: #C4C4C4;
+    margin-top: 6%;
+    font-size: 85%;
+}
+
+#buttons{
+    width:79%;
+    height:53%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.button{
+    margin-top: 5%;
+    background-color: #333333;
+    width:100%;
+    text-align: center;
+    padding:13px 50px;
+    border-radius: 7px;
+    font-weight: 600;
+}
+
+.button:hover{
+    background-color: #3e3e3e;
+    cursor: pointer;
+}
