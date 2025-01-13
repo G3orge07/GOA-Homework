@@ -1,0 +1,26 @@
+body{
+    height:700px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.block{
+    width:200px;
+    height:200px;
+    border: 3px solid black;
+    
+}
+
+#block1{
+    background-color: aquamarine;
+}
+
+#block2{
+    background-color: blueviolet;
+}
+
+#block3{
+    background-color: brown;
+}

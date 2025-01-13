@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    color: white;
+    background-image: url('bg-desktop.svg');
+    background-repeat: no-repeat;
+    background-color: #674BB1;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    height: 22vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+
+#logo{
+    max-width: 270px;
+    margin: 70px;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 75px;
+    margin-top: 30px;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+#illustration{
+    width: 51%;
+    object-fit: cover;
+}
+
+.registration{
+    width: 47%;
+    height: 475px;
+    padding-left: 50px;
+}
+
+h1{
+    padding-right: 60px;
+    font-weight: 600;
+    font-size: 43px;
+    line-height: 1.4;
+}
+
+p{
+    font-weight: 400;
+    font-size: 19px;
+    opacity: 0.8;
+    line-height: 1.6;
+}
+
+button{
+    margin-top: 25px;
+    width: 35%;
+    height: 12.5%;
+    border-radius: 30px;
+    font-size: 19px;
+    color: #674baf;
+    border: none;
+    box-shadow: 3px 3px 10px rgb(31, 31, 31);
+}
+
+footer{
+    margin-top: 4vh;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px 75px;
+}

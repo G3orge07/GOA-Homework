@@ -1,0 +1,32 @@
+h1{
+    background-color: rgb(104, 104, 244);
+    padding:10px;
+    border-radius: 20px;
+    margin:0;
+    display: inline;
+}
+
+h4{
+    color: aliceblue;
+    display: inline;
+}
+
+
+
+main{
+    background-image:url("https://img.freepik.com/free-vector/blue-glowing-diagonal-lines-abstract-background-design_1017-27053.jpg?semt=ais_hybrid");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+}
+
+
+body{
+    height:728px;
+    overflow-y: hidden;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
