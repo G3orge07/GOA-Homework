@@ -1,8 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kumbh+Sans:wght@100..900&family=Lexend+Deca:wght@100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
     height: 100vh;
     background-image: url('pattern-background-desktop.svg');
-    background-position: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     background-color: #E0E8FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Red Hat Display;
 }
 
+#container{
+    width: 30%;
+    height: 90%;
+    background-color: white;
+    border-radius: 20px;
+}
+
+#section1{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#section2{
+    height: 64%;
+    padding: 10% 12%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1{
+    color: #1f2f56;
+    font-weight: 900;
+    margin: 0;
+    /* margin-top: 15px; */
+}
+
+#desc{
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.65;
+    text-align: center;
+    color: #7280a7;
+    font-weight: 500;
+}
+
+#plan{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #F8F9FE;
+    height: 27%;
+    align-items: center;
+    border-radius: 15px;
+}
+
+#plan img{
+    height: 50%;
+    margin: 0% 6%;
+}
+
+
+#price{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 52%;
+    margin-right: 20%;
+}
+#plan h3{
+    font-weight: 900;
+    color: #1f2f56;
+}
+
+#plan p{
+    color: #7280a7;
+    font-weight: 700;
+}
+#plan a{
+    color: #3829e0;
+    font-weight: 700;
+}
+#plan a:hover{
+    text-decoration: none;
+    color: #8727c7;
+}
+
+
+#pay{
+    width: 100%;
+    background-color: #3829e0;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    height: 15%;
+    font-weight: 700;
+    box-shadow: 0px 7px 20px #bdbcff;
+    transition: 0.2s;
+}
+#pay:hover{
+    background-color: #7829e0;
+    cursor: pointer;
+}
+
+#cancel{
+    color: #7280a7;
+    border: none;
+    font-weight: 700;
+    transition: 0.1s;
+}
+#cancel:hover{
+    color: #1f2f56;
+    cursor: pointer;
+}
