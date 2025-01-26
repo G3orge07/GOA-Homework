@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kumbh+Sans:wght@100..900&family=Lexend+Deca:wght@100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Kumbh Sans;
+    height: 100vh;
+    background-color: #19a2ae;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #2d3248;
+}
+
+#bg-top{
+    position: absolute;
+    top: -70%;
+    left: -20%;
+}
+
+#bg-bottom{
+    position: absolute;
+    bottom: -85%;
+    right: -13%;
+}
+
+#container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    width: 25%;
+    height: 53%;
+    position: relative;
+    background-image: url('bg-pattern-card.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    background-color: white;
+}
+
+
+#victor{
+    width: 30%;
+    border-radius:50%;
+    border: 6px solid white;
+}
+
+#name-age{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 35%;
+}
+#name-age h1{
+    font-weight: 700;
+    font-size: 18px;
+}
+#name-age h3{
+    font-size: 18px;
+    font-weight: 400;
+    color: #6a6f81;
+}
+
+#nationality{
+    font-size: 15px;
+    color: #6a6f81;
+    margin-bottom: 6%;
+}
+
+#stats{
+    display: flex;
+    justify-content: space-around;
+    padding: 25px 40px;
+    width: 100%;
+    border-top: 1px solid #cbcaca;
+    height: 23%;
+}
+
+.stat{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.stat p{
+    font-size: 10px;
+    opacity: 0.7;
+}
