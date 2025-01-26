@@ -1,0 +1,8 @@
+body{
+    height: 100vh;
+    background-image: url('pattern-background-desktop.svg');
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-color: #E0E8FF;
+}
+

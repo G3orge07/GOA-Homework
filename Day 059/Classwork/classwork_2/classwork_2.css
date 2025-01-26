@@ -1,0 +1,53 @@
+
+.box{
+    margin-top: 100px;
+    width:180px;
+    height: 180px;
+    border: 2px solid;
+    animation-name: ChangingColors;
+    animation-duration: 10s;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+@keyframes ChangingColors{
+    0%{
+        background-color: bisque;
+    }
+    4%{
+        background-color: bisque;
+    }
+
+    13%{
+        background-color: rgb(178, 250, 77);
+        transform: rotate(90deg);
+    }
+    15%{
+        background-color: rgb(178, 250, 77);
+        transform: rotate(90deg);
+    }
+    27%{
+        background-color: rgb(77, 250, 161);
+        transform: rotate(-90deg);
+    }
+    30%{
+        background-color: rgb(77, 250, 161);
+        transform: rotate(-90deg);
+    }
+    43%{
+        background-color: rgb(50, 185, 226);
+        transform: rotate(270deg);
+    }
+    45%{
+        background-color: rgb(50, 185, 226);
+        transform: rotate(270deg);
+    }
+    68%{
+        background-color: rgb(155, 48, 222);
+        transform: rotate(-90deg) scale(1.5) translateX(100px);
+    }
+
+}

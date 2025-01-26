@@ -1,0 +1,67 @@
+
+/* IN PROGRESS */
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: Poppins, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header{
+    height: 28vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#header-container{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+    margin-top: 3vh;
+}
+
+h1, h2{
+    font-size: 33px;
+    margin: 0;
+}
+
+h1{
+    font-weight: 600;
+}
+
+h2{
+    margin-top: 1vh;
+    opacity: 0.7;
+    font-weight: 300;
+}
+
+header p{
+    text-align: center;
+    opacity: 0.6;
+    font-size: 15px;
+}
+
+
+#CONTAINER{
+    display: flex;
+    justify-content: space-around;
+    border: 3px solid red;
+}
+.window{
+    border: 2px solid;
+    height: 40%;
+}
+
+
+#container1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+

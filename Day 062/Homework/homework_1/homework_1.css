@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend+Deca:wght@100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend+Deca:wght@100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#container{
+    width: 65%;
+    height: 70%;
+    border: 2px solid;
+    border-radius: 8px;
+    display: flex;
+}
+
+.card{
+    height: 100%;
+    width: 33.33%;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 65%;
+}
+
+img{
+    width: 30%;
+}
+h2{
+    font-family: Big Shoulders Display;
+    font-weight: 700;
+    font-size: 37px;
+}
+
+p{
+    font-family: Lexend Deca;
+    font-size: 15px;
+    line-height: 1.6;
+    font-weight: 400;
+    opacity: 0.65;
+}
+
+button{
+    font-family: Lexend Deca;
+    height: 47px;
+    width: 67%;
+    border: none;
+    border-radius: 30px;
+}
+
+#sedans{
+    background-color: #e38826;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#suvs{
+    background-color: #006970;
+}
+
+#luxury{
+    background-color: #004241;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+button{
+    transition: 0.3s;
+}
+
+#sedans button{
+    color: #e38826;
+}
+#sedans button:hover{
+    border: 3px solid white;
+    background-color: #e38826;
+    color: white;
+}
+
+#suvs button{
+    color: #006970;
+}
+#suvs button:hover{
+    border: 3px solid white;
+    background-color: #006970;
+    color: white;
+}
+
+#luxury button{
+    color: #004241;
+}
+#luxury button:hover{
+    border: 3px solid white;
+    background-color: #004241;
+    color: white;
+}

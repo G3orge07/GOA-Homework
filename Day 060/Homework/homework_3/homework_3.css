@@ -1,0 +1,33 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    animation-name: WidthColor;
+    animation-duration: 4s;
+    animation-delay: 0.8s;
+    background-color: blueviolet;
+}
+
+
+@keyframes WidthColor{
+    0%{
+        width: 200px;
+        background-color: blueviolet;
+    }
+
+    25%{
+        width: 400px;
+    }
+
+    100%{
+        background-color: aqua;
+        width: 400px;
+    }
+}

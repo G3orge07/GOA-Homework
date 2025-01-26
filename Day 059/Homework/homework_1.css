@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #181A1B;
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#container{
+    width: 30%;
+    height: 63%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.square{
+    width: 17%;
+    height: 17%;
+    border: 10px solid aqua;
+    animation-name: square-rotate;
+    animation-duration: 1.5s;
+    animation-iteration-count: 5;
+    /* animation-delay: 1.7s; */
+}
+.loading-bar{
+    width: 100%;
+    height: 10%;
+    background-color: white;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+#loadingbar2{
+    height: 100%;
+    background-color: aqua;
+    border-radius: 0%;
+    animation-name: LoadingBar;
+    animation-duration: 7s;
+    /* animation-delay: 1.7s; */
+    animation-fill-mode: both;
+}
+
+@keyframes LoadingBar{
+    from{
+        width: 0%;
+    }
+    to{
+        width: 100%;
+    }
+}
+
+.start{
+    width: 48%;
+    height: 10%;
+    background: none;
+    border: 3px solid #181A1B;
+    border-radius: 20px;
+    font-size: 170%;
+    color: white;
+    transition: 0.35s;
+}
+
+.start:hover{
+    border: 3px solid aqua;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.start:active{
+    border: 3px solid rgb(2, 144, 144)
+}
+
+@keyframes square-rotate{
+    0%{
+        transform: rotateY(0deg);
+    }
+    33%{
+        transform: rotateY(180deg);
+    }
+    69%{
+        transform: rotateX(180deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}

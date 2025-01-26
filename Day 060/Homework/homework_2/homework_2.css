@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: white;
+    font-family: Outfit, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0D1A2D;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container{
+    margin-bottom: 20px;
+    background-color: #15273F;
+    width: 22%;
+    height:80%;
+    border-radius: 15px;
+    box-shadow: -20px 35px 2px #0C1729, 20px 35px 2px #0C1729,
+    -50px 50px 1px #0C192C, 50px 50px 1px #0C192C;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    position: relative;
+}
+
+#equilibrium{
+    height:55%;
+    border-radius: 8px;
+}
+
+#title{
+    font-weight: 600;
+    font-size: 22px;
+    margin: 0;
+    transition: 0.2s;
+    width: 65%;
+}
+
+#description{
+    font-weight: 300;
+    opacity: 0.7;
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+#about{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #293B53;
+    padding-bottom: 20px;
+    margin: 0;
+}
+
+#ETH{
+    color: #00fff7;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 31%;
+}
+
+#time{
+    opacity: 0.7;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 31.5%;
+}
+
+#created-by{
+    margin: 0;
+    width: 80%;
+    height: 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#avatar{
+    height:90%;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+#p1{
+    opacity: 0.7;
+    font-weight: 300;
+}
+
+#p2{
+    opacity: 1;
+    font-weight: 400;
+    transition: 0.2s;
+}
+
+
+
+/* HOVERS */
+
+#img-background{
+    height:51.5%;
+    width: 88%;
+    border-radius: 8px;
+    background-color: #00fff7;
+    position: absolute;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+#img-background:hover{
+    opacity: 0.55;
+}
+
+
+#icon-view{
+    position: absolute;
+    top: 149px;
+    left: 147px;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+#img-background:hover ~ #icon-view {
+    opacity: 1;
+}
+
+#title:hover{
+    color: #00fff7;
+    cursor: pointer;
+}
+
+#p2:hover{
+    color: #00fff7;
+    cursor: default;
+}

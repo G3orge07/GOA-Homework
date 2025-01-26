@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+.welcome-box{
+    margin-top: 20px;
+    border: 2px solid;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: Welcome;
+    animation-duration: 5s;
+}
+
+@keyframes Welcome {
+    from{
+        background-color: aquamarine;
+        width: 200px;
+        height: 200px;
+    }
+    to{
+        background-color: blueviolet;
+        transform: rotate(360deg);
+        width: 280px;
+        height: 280px;
+    }
+}
