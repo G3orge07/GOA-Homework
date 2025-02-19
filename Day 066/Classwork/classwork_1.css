@@ -1,0 +1,58 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container{
+    width: 60vh;
+    height: 60vh;
+    border: 6px solid black;
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+}
+
+
+.square{
+    width: 90%;
+    height: 90%;
+    justify-self: center;
+    align-self: center;
+}
+
+#square1{
+    background-color: blueviolet;
+}
+
+#square2{
+    background-color: aqua;
+}
+
+#square3{
+    background-color: brown;
+}
+
+#square4{
+    background-color: chartreuse;
+}
+
+#square5{
+    background-color: hotpink;
+}
+
+#square6{
+    background-color: cornflowerblue;
+}
+
+#square7{
+    background-color: midnightblue;
+}
+
+#square8{
+    background-color: seagreen;
+}
+
+#square9{
+    background-color: purple;
+}

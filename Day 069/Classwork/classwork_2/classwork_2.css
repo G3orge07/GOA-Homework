@@ -1,0 +1,22 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container{
+    height: 60vh;
+    width: 60vh;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    border: 10px solid black;
+}
+
+#block{
+    grid-column-start: 3;
+    grid-row-start: 3;
+    background-color: blueviolet;
+    border-radius: 20px;
+}

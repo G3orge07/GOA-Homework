@@ -1,0 +1,23 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container{
+    height: 60vh;
+    width: 60vh;
+    border: 10px solid blueviolet;
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+}
+
+
+.square{
+    width: 90%;
+    height: 90%;
+    justify-self: center;
+    align-self: center;
+}
+

@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+
+}
+
+.container{
+    height: 30%;
+    width: 60%;
+    border: solid black;
+}
+
