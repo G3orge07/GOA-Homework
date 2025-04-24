@@ -1,0 +1,44 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container{
+    width: 75%;
+    height: 55%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.image{
+    width: 20%;
+    border: solid black;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+.image:hover{
+    opacity: 0.8;
+    padding: 5px;
+}
+
+.arrow{
+    height: 30%;
+    width: 5%;
+    transition: 0.2s;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.arrow:hover{
+    width: 8%;
+}
+.arrow:active{
+    transform: scale(0.92);
+}
+
+#arrowL{
+    transform: rotateY(180deg);
+}

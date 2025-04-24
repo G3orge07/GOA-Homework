@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: sans-serif;
+    padding: 25px;
+    box-shadow: 0px 1px 5px;
+    font-size: 0.8rem;
+    letter-spacing: 3px;
+}
+
+#h2-1{
+    color: rgb(6, 198, 198)
+}
+
+main{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    background-color: #00FF00;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card h1{
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 9px;
+}
+
+.card button{
+    background: none;
+    padding: 15px;
+    border-style: groove;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 500;
+    border-color: #333;
+    text-transform: uppercase;
+
+}
