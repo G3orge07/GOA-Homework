@@ -78,7 +78,7 @@ main{
 }
 
 .product{
-    width: 23%;
+    width: 24%;
     height: 58vh;
     padding: 3vh;
     border-bottom: solid white;
@@ -100,7 +100,7 @@ main{
 }
 
 .add{
-    width: 21vh;
+    width: 22vh;
     display: flex;
     height: 10%;
     justify-content: space-between;
@@ -182,5 +182,6 @@ main{
     background-color: #0D1117;
 }
 .product-img{
-    height: 90%;
+    width: 20%;
+    border-radius: 10px;
 }
