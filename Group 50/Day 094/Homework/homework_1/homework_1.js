@@ -7,7 +7,7 @@ let numArr = [823, 510, -678, 902, 374, 156, 789, 91, -305, 667, 415, 22, 980, 7
 ]
 
 
-function onlyEven(arr) {
+const onlyEven = (arr) => {
     let result = []
     for (let num of arr){
         if (num % 2 == 0){
@@ -17,7 +17,7 @@ function onlyEven(arr) {
     return result
 }
 
-function onlyOdd(arr) {
+const onlyOdd = (arr) => {
     let result = []
     for (let num of arr){
         if (num % 2 != 0){
@@ -29,4 +29,3 @@ function onlyOdd(arr) {
 
 console.log(onlyEven(numArr))
 console.log(onlyOdd(numArr))
-
